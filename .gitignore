@@ -6,6 +6,11 @@
 !/.vim
 !/.vimrc
 
+# installer
+!/.bin
+!/.bin**
+
+# main
 !/README.md
 !/LICENSE
 !.gitignore
