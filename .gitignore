@@ -1,0 +1,13 @@
+# all ignore
+/*
+/.**
+
+# white list
+!/.vim
+!/.vimrc
+
+!/README.md
+!/LICENSE
+!.gitignore
+!.gitkeep
+
