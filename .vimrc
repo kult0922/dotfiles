@@ -7,10 +7,6 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'Shougo/unite.vim'
 " Unite.vimで最近使ったファイルを表示できるようにする
 Plug 'Shougo/neomru.vim'
-" pythonファイルを編集するときだけ起動
-"Plug 'davidhalter/jedi-vim', {'for': 'python'}
-" カラー化
-" Plug 'tomasr/molokai'
 
 "Plug 'jdkanani/vim-material-theme'
 
@@ -31,6 +27,7 @@ call plug#end()
 set expandtab
 set smartindent
 set autoindent
+set backspace=indent,eol,start
 
 " for lucario
 syntax enable
@@ -55,6 +52,7 @@ inoremap <silent> jj <ESC>
 "" ファイルごとに設定を分岐
 autocmd BufRead,BufNewFile *.py setfiletype python
 autocmd BufRead,BufNewFile *.js setfiletype javascript
+autocmd BufRead,BufNewFile *.java setfiletype java
 autocmd BufRead,BufNewFile *.css setfiletype css
 autocmd BufRead,BufNewFile *.html setfiletype html
 
