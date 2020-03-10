@@ -55,4 +55,5 @@ autocmd BufRead,BufNewFile *.js setfiletype javascript
 autocmd BufRead,BufNewFile *.java setfiletype java
 autocmd BufRead,BufNewFile *.css setfiletype css
 autocmd BufRead,BufNewFile *.html setfiletype html
+autocmd BufRead,BufNewFile *.go setfiletype go
 
