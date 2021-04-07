@@ -2,8 +2,11 @@
 /*
 
 # white list
+# vim
 !/.vim/
 !/.vimrc
+# zsh
+!/.zshrc
 
 # installer
 !/.bin
