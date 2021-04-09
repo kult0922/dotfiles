@@ -7,6 +7,7 @@
 !/.vimrc
 # zsh
 !/.zshrc
+!/zsh/
 
 # installer
 !/.bin
