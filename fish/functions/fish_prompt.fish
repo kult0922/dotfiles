@@ -84,6 +84,8 @@ function fish_prompt
         set color_user $h_orange
     end
 
+    set -g fish_prompt_pwd_dir_length 12
+
     _prompt_user
     _prompt_dir
     _prompt_git
