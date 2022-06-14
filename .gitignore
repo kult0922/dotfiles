@@ -5,13 +5,12 @@
 # vim
 !/.vim/
 !/.vimrc
-# zsh
-!/.zshrc
-!/zsh/
+
+# fish
+!/fish/
 
 # installer
-!/.bin
-!/.bin**
+!/bin/
 
 # main
 !/README.md

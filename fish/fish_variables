@@ -1,0 +1,33 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR __fish_initialized:3400
+SETUVAR fish_color_autosuggestion:757575
+SETUVAR fish_color_cancel:\x2d\x2dbackground\x3d00bcc6
+SETUVAR fish_color_command:8ed0ff
+SETUVAR fish_color_comment:757575
+SETUVAR fish_color_cwd:green
+SETUVAR fish_color_cwd_root:red
+SETUVAR fish_color_end:8ed0ff
+SETUVAR fish_color_error:ff6161
+SETUVAR fish_color_escape:757575
+SETUVAR fish_color_history_current:\x2d\x2dbold
+SETUVAR fish_color_host:normal
+SETUVAR fish_color_host_remote:yellow
+SETUVAR fish_color_match:\x2d\x2dbackground\x3d8ed0ff
+SETUVAR fish_color_normal:ffffff
+SETUVAR fish_color_operator:f8bbf6
+SETUVAR fish_color_param:f8bbf6
+SETUVAR fish_color_quote:f8bbf6
+SETUVAR fish_color_redirection:7CB02C
+SETUVAR fish_color_search_match:\x2d\x2dbackground\x3d00bcc6
+SETUVAR fish_color_selection:\x2d\x2dbackground\x3d287480
+SETUVAR fish_color_status:red
+SETUVAR fish_color_user:brgreen
+SETUVAR fish_color_valid_path:\x2d\x2dunderline
+SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_completion:ffffff
+SETUVAR fish_pager_color_description:B3A06D
+SETUVAR fish_pager_color_prefix:8ed0ff
+SETUVAR fish_pager_color_progress:8ed0ff
+SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_user_paths:/Users/kazuma/\x2enodebrew/current/bin
