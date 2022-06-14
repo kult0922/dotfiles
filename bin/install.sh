@@ -1,4 +1,3 @@
 #!/bin/bash
-ln -s .vimrc ~/.vimrc
-ln -s .vim ~/.vim
-ln -s .
+ln -s ~/dotfiles/.vimrc ~/.vimrc
+ln -s ~/dotfiles/fish ~/.config/fish
