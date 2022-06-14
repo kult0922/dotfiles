@@ -32,10 +32,10 @@ set smartindent
 set autoindent
 set backspace=indent,eol,start
 
-" for lucario
+" for color theme
 syntax enable
 set number
-colorscheme lucario
+colorscheme lucius
 set t_Co=256¬
 
 " for lightline
