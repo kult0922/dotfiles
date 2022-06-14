@@ -1,5 +1,13 @@
 # dotfiles
 
+## install fish
+```
+brew install fish
+# change default shell
+echo /usr/local/bin/fish | sudo tee -a /etc/shells
+chsh -s /usr/local/bin/fish
+```
+
 ## vim-plug install
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
