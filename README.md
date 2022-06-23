@@ -8,6 +8,11 @@ echo /usr/local/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
 ```
 
+## oh-my-fish install
+```
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+```
+
 ## vim-plug install
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
