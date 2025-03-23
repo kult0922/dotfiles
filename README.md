@@ -13,6 +13,12 @@ chsh -s /opt/homebrew/bin/fish
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 ```
 
+## starship
+
+```
+brew install starship
+```
+
 ## vim-plug install
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
