@@ -12,7 +12,7 @@
 !/bin/
 
 # starship
-starship.toml
+!/starship.toml
 
 # main
 !/README.md
