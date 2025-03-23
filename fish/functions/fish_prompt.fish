@@ -74,22 +74,3 @@ function _prompt_git
     end
 end
 
-function fish_prompt
-    set -l last_status $status
-    set_color -b $color_dark $white
-    if [ $last_status -gt 0 ]
-        echo -n (set_color $white)" $icon_miss "
-        set color_user $color_warning
-    else
-        set color_user $h_orange
-    end
-
-    set -g fish_prompt_pwd_dir_length 12
-
-    _prompt_user
-    _prompt_dir
-    _prompt_git
-    echo
-    echo "🌜 "
-end
-
