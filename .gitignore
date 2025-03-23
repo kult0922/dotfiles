@@ -11,6 +11,9 @@
 # installer
 !/bin/
 
+# starship
+starship.toml
+
 # main
 !/README.md
 !/LICENSE
