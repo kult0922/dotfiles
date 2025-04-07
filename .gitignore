@@ -8,6 +8,9 @@
 # fish
 !/fish/
 
+# wezterm
+!/wezterm/
+
 # installer
 !/bin/
 
